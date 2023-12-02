@@ -3,7 +3,7 @@ const fs = require('fs');
 
 let attempt = 0; 
 let wallet;
-const regex = /^0x888.*$/;
+const regex = /^0x888.+$/;
 let isValid = false;
 
 setInterval(() => {
